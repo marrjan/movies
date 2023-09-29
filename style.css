@@ -20,6 +20,14 @@
     font-family: poppinsy;
 }
 
+/*selection*/
+::selection {
+    color: aliceblue;
+    background: #e3c414af;
+}
+
+::selection
+
 /* body */
 body {
     display: flex;
