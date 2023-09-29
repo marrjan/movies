@@ -8,11 +8,16 @@
 
 }
 
+@font-face {
+    font-family: poppinsy;
+    src: url(Poppins/Poppins-Light.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins;
+    font-family: poppinsy;
 }
 
 /*selection*/
