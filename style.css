@@ -2,17 +2,22 @@
 
 /* root */
 :root {
-    --dark :#1e1e1e;
-    --yellow :#e3c414;
-    --light :#fff;
+    --dark: #1e1e1e;
+    --yellow: #e3c414;
+    --light: #fff;
 
 }
 
+@font-face {
+    font-family: poppinsy;
+    src: url(Poppins/Poppins-Light.ttf);
+}
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppinsy', sans-serif;
 }
 
 /* body */
@@ -25,7 +30,7 @@ body {
 }
 
 /* container */
-.container{
+.container {
     position: relative;
     width: 100%;
     height: 100%;
@@ -130,32 +135,33 @@ body {
     margin-bottom: 10px;
     opacity: .6;
 }
+
 /* description star */
 
-.description .rating{
+.description .rating {
     position: relative;
     margin-bottom: 15px;
     display: flex;
     gap: .25em;
 }
 
-.description .rating i{ 
+.description .rating i {
     color: var(--yellow);
 }
 
-.description .rating span{
+.description .rating span {
     margin-left: 0.25em;
 }
- 
+
 /* description genre */
-.description .genre{
+.description .genre {
     display: flex;
     gap: .375em;
     margin-bottom: .875em;
     font-size: .85em;
 }
 
-.description .genre span{
+.description .genre span {
     padding: .35rem .65rem;
     color: #fff;
     border: 1.5px solid rgba(255 255 255 / 0.4);
